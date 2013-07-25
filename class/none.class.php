@@ -63,7 +63,7 @@ class None extends Default_Table
     		}
     		
     		$theHtml .= '<div id="two-column-center">';
-    		$topImage = $_SERVER['DOCUMENT_ROOT']."/domains/balconesresources.com/rsrc/top/".$thisPage[0]['link']."-top.jpg";
+    		$topImage = $_SERVER['DOCUMENT_ROOT']."/rsrc/top/".$thisPage[0]['link']."-top.jpg";
     		//echo $topImage;
     		if (file_exists($topImage)) {
     			$theHtml .= '<div id="top-image">
