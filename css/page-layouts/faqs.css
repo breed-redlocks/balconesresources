@@ -1,0 +1,16 @@
+#faqs {
+	margin:5px 20px;
+}
+.faq {
+	margin: 5px 0;
+}
+.faq-question {
+    /*color: #f7af02;*/
+    font-size: 22px;
+    font-weight: bold;
+}
+.faq-answer {
+    border-bottom: 1px dashed #B9E0FD;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}

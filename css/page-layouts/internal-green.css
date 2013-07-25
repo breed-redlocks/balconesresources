@@ -1,0 +1,32 @@
+.main-nav-item-active-1 {
+    background-color: #0D934C;
+}
+#fun-fact-text {
+    background-color: #0D9347;
+}
+#contact {
+    background-color: #A0CC51;
+}
+#contact input, #contact textarea {
+	color: #00612d;
+	background-color: #A0CC51;
+}
+h1, .faq-question { 
+	color: #006225;
+}
+#side-nav ul li.section-active a,
+#side-nav ul li.cat-active a,
+#side-nav ul li.subCat-active a {
+    background-color: #144822;
+}
+#side-nav ul li.section-active {
+    background-image: url("/rsrc/common/active-arrow-29-internal-green.png");
+}
+#side-nav ul li.cat-active {
+    background-image: url("/rsrc/common/active-arrow-29-internal-green.png");
+}
+
+#side-nav ul li.subCat-active {
+    background-image: url("/rsrc/common/active-arrow-23-internal-green.png");
+}
+

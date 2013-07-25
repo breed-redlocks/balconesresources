@@ -1,0 +1,51 @@
+#home-left {
+    float: left;
+    width: 548px;
+    background-color: #FFFFFF;
+}
+#home-right {
+	float: left;
+}
+#staticBadges {
+    width: 342px;
+}
+#dynamicBadges {
+    width: 342px;
+}
+div.badges {
+    float: left;
+    height: 239px;
+    margin: 0 0 1px 1px;
+}
+div.badgeTitle {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    min-height: 34px;
+    padding: 7px 0 7px 5px;
+    width: 165px;
+}
+.badgeDate {
+    color: #000000;
+    font-size: 10px;
+    padding: 0 0 6px 5px;
+    float: left;
+}
+.badgeSource {
+    color: #000000;
+    float: right;
+    font-size: 10px;
+    padding: 0 5px 0;
+}
+
+div.badgeSubText {
+    background-color: #FFFFFF;
+    height: 19px;
+    width: 170px;
+}
+div.badgeImage {
+    height: 172px;
+    overflow: hidden;
+    width: 170px;
+}

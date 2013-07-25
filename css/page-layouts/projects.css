@@ -1,0 +1,113 @@
+#gallery-nav {
+    padding: 33px 0 0;
+}
+ul.thumb {
+	float: left;
+	list-style: none;
+	margin: 0 0 0 50px; 
+	padding: 0;
+}
+ul.thumb li {
+	margin: 0 0 10px 0; 
+	padding: 5px;
+	float: left;
+	position: relative;  /* Set the absolute positioning base coordinate */
+	width: 110px;
+	height: 55px;
+}
+ul.thumb li img {
+	width: 100px; height: 55px; /* Set the small thumbnail size */
+	-ms-interpolation-mode: bicubic; /* IE Fix for Bicubic Scaling */
+	border: 1px solid #ddd;
+	padding: 5px;
+	background: #f0f0f0;
+	position: absolute;
+	left: 0; top: 0;
+}
+ul.thumb-nav li img.hover {
+	background:url(thumb-nav_bg.png) no-repeat center center;  /* Image used as background on hover effect
+	border: none; /* Get rid of border on hover */
+}
+ul.thumb-nav {
+	float: left;
+	list-style: none;
+	margin: 0; 
+}
+ul.thumb-nav li {
+	margin: 0; padding: 5px;
+	float: left;
+	position: relative;  /* Set the absolute positioning base coordinate */
+	width: 110px;
+	height: 55px;
+}
+ul.thumb-nav li img {
+	width: 100px; height: 55px; /* Set the small thumb-navnail size */
+	-ms-interpolation-mode: bicubic; /* IE Fix for Bicubic Scaling */
+	border: 1px solid #ddd;
+	padding: 5px;
+	background: #f0f0f0;
+	position: absolute;
+	left: 0; top: 0;
+}
+ul.thumb-nav li img.hover {
+	background:url(thumb_bg.png) no-repeat center center;  /* Image used as background on hover effect
+	border: none; /* Get rid of border on hover */
+}
+#project-blocks {margin: 18px 50px 0 50px}
+
+.project-block {
+    line-height: 22px;
+}
+#project-detail {
+    margin: 0 50px;
+}
+#project-detail-left {
+    float: left;
+    margin-right: 50px;
+    width: 600px;
+}
+#project-detail-right {
+    margin: 0 0 50px 0;
+    width: 274px;
+    float: left;
+}
+#project-detail-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 18px;
+    width: 100%;
+}
+#media-caption {
+    position: relative;
+    right: -425px;
+    top: -416px;
+
+}
+#project-company {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 18px;
+}
+#project-cats {
+    font-size: 14px;
+    font-weight: 100;
+    margin: 0 0 18px;
+}
+#project-intro {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 18px;
+}
+#project-website {
+    margin: 0 0 18px;
+}
+#project-website a{
+	text-decoration: none;
+	color: #c3c3c3;
+
+}
+#project-website a:hover{
+	text-decoration: none;
+	color: #666666;
+
+}

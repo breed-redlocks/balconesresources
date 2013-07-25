@@ -1,0 +1,205 @@
+#dynamicBadges {
+	margin: 0;
+	color: black;
+	width: 577px;
+}
+.badgeImage img {
+	border:0 none;
+}
+.badges {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #96C7E8;
+    border-right: 1px solid #96C7E8;
+    float: left;
+    height: 239px;
+    overflow: hidden;
+    width: 191px;
+}
+.badgeImage {
+    height: 178px;
+    margin: 0;
+    overflow: hidden;
+    width: 191px;
+}
+.badgeTitle, .badgeSubText {
+    padding-left: 9px;
+}
+.badgeTitle {
+    font-weight: 700;
+    margin-top: 4px;
+    min-height: 34px;
+}
+.badgeSubText {
+    font-size: 12px;
+    line-height: 21px;
+    margin-bottom: 13px;
+}
+
+.badgeSource {
+    color: #000000;
+    float: right;
+    font-size: 10px;
+    padding: 0 9px;
+}
+.badgeDate {
+    color: #000000;
+    float: left;
+    font-size: 10px;
+    padding: 0 0 6px 0;
+}
+.main-nav-item-active-1 {
+    background-color: #f0cc01;
+}
+#content {
+	float:left;
+
+}
+#two-column-center {
+    background-color: #ffffff;
+    float: left;
+    width: 575px;
+    min-height: 825px;
+    overflow: hidden;	
+    
+}
+#two-column-right {
+	float: left;
+	height: 825px;
+}
+#selfPromo, #selfPromoThree {
+	margin-left: 1px;
+}
+#promoOne, #promoTwo, #selfPromoThree {
+	margin-bottom: 1px;
+}
+#selfPromoThree {
+	display: block;
+	height: 239px;
+}
+
+#promoOne img, #promoTwo img {
+	display: block;
+}
+#selfPromoThreeText{
+	margin-left: 13px;
+}
+#fun-fact-text {
+    background-color: #055594;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#contact {
+    background-color: #158ae1;
+    border: 5px solid #FFFFFF;
+    margin: 0 0 1px 1px;
+    padding: 0 4px 0 5px;
+    width: 151px;
+}
+/*
+#contact h3 {
+    color: #FFFFFF;
+    font-size: 13.5px;
+    letter-spacing: 0.7px;
+    line-height: 100%;
+    margin: 15px 5px 7px;
+    text-transform: uppercase;
+}
+#contact p {
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 0 5px 11px;
+}
+*/
+#contact input, #contact textarea {
+	font-family: "proxima-nova",sans-serif;
+	font-size: 12px;
+	color: #005493;
+	background-color: #158ae1;
+}
+#contact input[type="text"] {
+    background-image: url("/rsrc/forms/text-input-bg.png");
+    background-repeat: no-repeat;
+    border: 0 none;
+    height: 20px;
+    margin-bottom: 13px;
+    padding-left: 6px;
+    width: 144px;
+}
+#contact input[type="submit"] {
+    background-image: url("/rsrc/forms/send-but.png");
+    background-repeat: no-repeat;
+    border: 0 none;
+    height: 16px;
+    margin-bottom: 5px;
+    width: 37px;;
+}
+#contact textarea {
+    background-image: url("/rsrc/forms/textarea-bg.png");
+    background-repeat: no-repeat;
+    border: 0 none;
+    height: 70px;
+    margin-bottom: 5px;
+    padding-left: 7px;
+    padding-top: 3px;
+    width: 144px;
+    resize: none;
+}
+div.contact-form-row-hidden {
+	display: none;
+}
+h1 {
+    color: #005493;
+    font-size: 33px;
+    font-weight: bold;
+}
+#side-nav {
+    margin: 0;
+    width: 143px;
+}
+#side-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#side-nav ul li {
+    background-color: white;
+    border-bottom: 1px dashed #B9E0FD;
+    color: #005493;
+    font-weight: 900;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 130px;
+}
+#side-nav ul li.cal-month, #side-nav ul li.cal-year {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    line-height: 26px;
+}
+#side-nav ul li.cal-day {
+    color: #158AE1;
+    font-size: 82px;
+    line-height: 75px;
+    
+}
+#side-nav ul li.cal-year {
+	letter-spacing: 7px;
+}
+
+
+#footer-wrapper {
+    position: relative;
+}
+#footer {
+    width: 576px;
+}
+#footerArrow {
+    background-image: url("/rsrc/common/footerArrow.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 75px;
+    position: relative;
+    top: 0;
+    width: 572px;
+}

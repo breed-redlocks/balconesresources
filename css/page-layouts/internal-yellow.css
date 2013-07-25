@@ -1,0 +1,75 @@
+.main-nav-item-active-1 {
+	background-color: #f0cc01;
+}
+#fun-fact-text {
+    background-color: #f7af18;
+}
+#contact {
+    background-color: #f0cc01;
+}
+#contact input, #contact textarea {
+	color: #9f4701;
+	background-color: #f0cc01;
+}
+h1, .faq-question { 
+	color: #f7af02;
+}
+#side-nav ul li.section-active a,
+#side-nav ul li.cat-active a,
+#side-nav ul li.subCat-active a {
+    background-color: #efcd12;
+}
+#side-nav ul li.section-active {
+    background-image: url("/rsrc/common/active-arrow-29-internal-yellow.png");
+}
+#side-nav ul li.cat-active {
+    background-image: url("/rsrc/common/active-arrow-29-internal-yellow.png");
+}
+#side-nav ul li.subCat-active {
+    background-image: url("/rsrc/common/active-arrow-23-internal-yellow.png");
+}
+block5 {
+	margin: 0;
+	background-color: transparent;
+}
+div#block5 ul {
+	list-style: none outside none;
+	margin: 20px 0 0;
+}
+div#block5 ul li {
+    display: block;
+    float: left;
+    height: 130px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    padding: 10px;
+    width: 157px;
+}
+div#block5 ul li.last {
+	margin-right: 0;
+	/*width: 172px;*/
+}
+div#block5 ul li a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-decoration: none;
+	color: #ffffff;
+	
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 13px;
+    text-transform: uppercase;
+
+}
+.orange1 {
+	background-color: #f0cc01;
+}
+.orange2 {
+	background-color: #f7af02;
+}
+.orange3 {
+	background-color: #f79802;
+}
+

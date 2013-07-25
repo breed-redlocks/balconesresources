@@ -1,0 +1,65 @@
+img {border: none 0;}
+body {margin: 0; font-family: "Arial";}
+#loginLogo {text-align: center;margin-top: 30px;}
+#wrapper{
+    color: black;
+    margin: 0 auto;
+    max-width: 1025px;
+}
+#nav{color:black; margin:0 auto; width:100%; }
+#nav-top, #nav-bottom {
+    border-bottom: 3px solid #000000;
+    color: black;
+    margin: 10px auto;
+    width: 100%;
+}
+.top-item {margin-top:40px;}
+#nav-top #logo {float:left; margin-right: 15px;}
+#nav a{text-decoration:none; color:#000; font-size:16px}
+div.nav-item {float:left;padding: 2px 10px 2px 0;margin-right: 5px;border-right: 1px solid}
+#sub-nav{color:black; margin:0 auto; width:100%; border-bottom:5px solid #000}
+div.sub-nav-item {float:left}
+#sub-nav a{text-decoration:none; color:#000; font-size:16px}
+#dashboard-block{
+   	border: 3px solid #000000;
+    color: black;
+    float: left;
+    height: 150px;
+    margin: 10px 5px 0 0;
+    padding: 10px;
+    width: 150px;
+}
+div.dashboard-block-item {margin:5px;text-align:center;}
+#dashboard-block a{text-decoration:none; color:#000; font-size:16px}
+
+div.table{color:black; -moz-border-radius:5px 5px 5px 5px; margin:20px auto; width:100%; background-color:#C3C3C3;padding:1px;}
+div.table-row{border:2px solid rgba(255,255,255,0.6); color:black; -moz-border-radius:5px 5px 5px 5px; margin:5px auto; width:99%; background:none repeat scroll 0 0 rgba(255,255,255,0.3); clear:both}
+div.table-row-legend{border:2px solid rgba(255,255,255,0.6); color:black; -moz-border-radius:5px 5px 5px 5px; margin:5px auto; width:99%; background:none repeat scroll 0 0 rgba(255,255,255,0.3); clear:both}
+div.table-lable{float:left; color:black; padding:2px;}
+div.table-item{float:left; color:black; padding:2px;}
+
+div.table-row-action a{text-decoration:none; color:#000; font-size:18px}
+div.item-long{float:left; color:black; padding:2px; width:200px}
+div.blog-text{float:left; color:black; padding:2px; width:296px}
+div.item-name a{color:#000}
+div.item-short{float:left; color:black; padding:2px; width:95px}
+div.clear{clear:both}			
+
+form#admin{-moz-border-radius:5px 5px 5px 5px; background:none repeat scroll 0 0 #C3C3C3; counter-reset:fieldsets; padding:20px; width:780px; margin:34px auto 34px}
+form#admin fieldset{ border:medium none;  margin-bottom:10px}
+form#admin fieldset:last-of-type{ margin-bottom:0}
+form#admin legend{ color:#000;  font-size:18px;  font-weight:bold;  padding-bottom:10px;  text-shadow:0 1px 1px #FFF;  background:none repeat scroll 0 0 #D9D9D9; padding:6px 12px;  -moz-border-radius:5px 5px 5px 5px;  border:2px solid rgba(255,255,255,0.6)}
+form#admin fieldset fieldset legend{ color:#111;  font-size:13px;  font-weight:normal;  padding-bottom:0}
+form#admin ol li{ -moz-border-radius:5px 5px 5px 5px;  background:none repeat scroll 0 0 rgba(255,255,255,0.3);  border:2px solid rgba(255,255,255,0.6);  list-style:none outside none;  margin-bottom:2px;  padding:5px 10px}
+form#admin ol ol li{ background:none repeat scroll 0 0 transparent;  border:medium none;  float:left}
+form#admin label{ float:left;  font-size:13px;  width:110px;height:24px}
+form#admin fieldset fieldset label{ background:none no-repeat scroll left 50% transparent;  line-height:20px;  padding:0 0 0 30px;  width:auto}
+form#admin fieldset fieldset label:hover{ cursor:pointer}
+form#admin input:not([type="radio"]), form#admin textarea, form#admin select{ -moz-border-radius:3px 3px 3px 3px;  background:none repeat scroll 0 0 #FFF;  border:medium none;  font:italic 13px;  outline:medium none;  padding:5px;  width:300px}
+form#admin textarea{ -moz-border-radius:3px 3px 3px 3px;  background:none repeat scroll 0 0 #FFF;  border:medium none;  font:italic 13px;  outline:medium none;  padding:5px;  width:700px}
+form#admin input[type="image"]{ background:none repeat scroll 0 0 #FFF;  outline:medium none;  padding:5px}
+form#admin input:focus:not([type="submit"]), form#admin textarea:focus{ background:none repeat scroll 0 0 #EAEAEA}
+form#admin input[type="radio"]{ float:left;  margin-right:5px}
+form#admin button{ -moz-border-radius:20px 20px 20px 20px;  background:none repeat scroll 0 0 #384313;  border:medium none;  color:#FFF;  display:block;  font-size:18px;  letter-spacing:1px;  margin:auto;  padding:7px 25px;  text-shadow:0 1px 1px #000;  text-transform:uppercase}
+form#admin button:hover{ background:none repeat scroll 0 0 #1E2506;  cursor:pointer}
+#input1 {margin:0}

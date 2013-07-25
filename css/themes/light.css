@@ -1,0 +1,11 @@
+#canvas {
+	margin: 0 auto;
+	border-left: 1px solid #C6C6C6;
+	border-right: 1px solid #C6C6C6;
+}
+body {
+    background-color: #BEE6FF;
+    color: #666666;
+    font-family: helvetica;
+    font-size: 15px;
+}
