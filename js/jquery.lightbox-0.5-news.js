@@ -148,7 +148,7 @@
 				_finish();									
 			});
 			$('#jquery-lightbox span#lightbox-image-details-caption').click(function() {
-				return false;
+			//	return false;
 			});	
 			//$('#jquery-lightbox div#lightbox-social a').click(function() {
 			//	return false;
