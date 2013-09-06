@@ -240,7 +240,6 @@ class News extends Default_Table
 		}
 		
 		return $theHtml;
-    return 'NOOOO';
 	}
 /*
 									<!--[if IE 7]>

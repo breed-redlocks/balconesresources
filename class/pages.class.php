@@ -281,8 +281,7 @@ class Pages extends Default_Table
 		
 		} // ENDS ($here != 'mills-and-brokers') AND WE ARE DISPLAYING NO SIDENAV
 		
-		//	return $theHtml;
-    return 'NOOOO';
+			return $theHtml;
 		
 	}// END BUILDSIDENAV
 	
@@ -467,7 +466,7 @@ class Pages extends Default_Table
    		$theHtml .= '<html>'."\n";
    		$theHtml .= '<head>'."\t\n";
    		$theHtml .= '<meta charset="UTF-8" />'."\n";
-   		$theHtml .= '<meta name="description" content="'.$page[0]['metaDesc'].'" />'."\t\n";
+   		$theHtml .= '<meta name="description" content="' . strip_tags($page[0]['metaDesc']) . '" />'."\t\n";
 		$theHtml .= '<meta name="keywords" content="'.$page[0]['metaKeys'].'" />'."\t\n";
 		$theHtml .= '<meta name="google-site-verification" content="uBgWdURmPwQFKXIfIrUIxDlP7QYnuEn48o7vH3sfR0Q" />'."\t\n";
 		$theHtml .= '<meta name="msvalidate.01" content="2914DA7CA92458CF6BA9DB3CC033EC1B" />'."\t\n";
