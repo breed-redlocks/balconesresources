@@ -1,19 +1,31 @@
 <?php
-$dbconnect  = NULL;
-$dbhost     = "localhost";
-$dbusername = "brdevdb";
-$dbuserpass = "Br2012!";
 
+$dbconnect  = NULL;
 $query      = NULL;
 
-function db_connect($dbname)
+function db_connect($str=false)
 {
-   global $dbconnect, $dbhost, $dbusername, $dbuserpass;
+  $environment = 'production'; // Switch as necessary
+  switch($environment)
+  {
+    case 'development':
+      $host     = "localhost";
+      $user = "dev_balconesreso";
+      $pass = "";
+      $db = "dev_balconesresources";
+    break;
+    case 'production':
+      $host     = "localhost";
+      $user = "balconesresource";
+      $pass = "sgJNDDPY33yS";
+      $db = "balconesresources";
+    break;
+  }
    
-   if (!$dbconnect) $dbconnect = mysql_connect($dbhost, $dbusername, $dbuserpass);
+   if (!$dbconnect) $dbconnect = mysql_connect($host,$user,$pass);
    if (!$dbconnect) {
       return 0;
-   } elseif (!mysql_select_db($dbname)) {
+   } elseif (!mysql_select_db($db)) {
       return 0;
    } else {
       return $dbconnect;

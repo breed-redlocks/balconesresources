@@ -18,7 +18,7 @@ class Default_Table
 	function Default_Table ($table)
 	{
     $this->tablename       = 'default';
-    $this->dbname          = 'brdevdb';
+    $this->dbname          = 'balconesresources';
     $this->rows_per_page   = 10;
     
     $this->fieldlist = array('column1', 'column2', 'column3');

@@ -1,5 +1,3 @@
-Options +FollowSymLinks
-Options -Multiviews
 RewriteEngine On
 
 RewriteBase /
@@ -7,15 +5,15 @@ RewriteBase /
 RewriteRule ^admin/ - [S=4]
 RewriteRule ^class/ - [S=5]
 RewriteRule ^test/ - [S=6]
-RewriteCond %{HTTP_HOST} !^dev.balconesresources\.com$ [NC]
-RewriteCond %{HTTP_HOST} !^www.balconesresources\.com$ [NC]
-RewriteRule ^(.*)$ http://www.balconesresources.com/$1 [QSA,L,R=301]
+#RewriteCond %{HTTP_HOST} !^dev.balconesresources\.com$ [NC]
+#RewriteCond %{HTTP_HOST} !^www.balconesresources\.com$ [NC]
+#RewriteRule ^(.*)$ http://www.balconesresources.com/$1 [QSA,L,R=301]
 RewriteCond %{REQUEST_URI} !(\.gif)|(\.jpg)|(\.ico)|(\.JPG)|(\.png)|(\.xml)|(\.css)|(\.js)|(\.php)(\.txt)$
 
 RewriteCond %{REQUEST_URI} !\.txt$
 RewriteCond %{REQUEST_URI} !=/index.php
 RewriteRule ^(.*)$ /index.php?/$1 [L]
 
-Options +FollowSymlinks
 RewriteRule ^blog/([0-9]+)-([a-z]+) blog/?archive=$1-$2 [NC]
 AddHandler php-script .php .xml
+
