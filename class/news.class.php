@@ -133,7 +133,7 @@ class News extends Default_Table
   			}
   		}
 		//echo $readMore.'<br>';
-		$imageTitleData = $this->convert_high_bytes($this->convert_smart_quotes(strip_tags($news['body'], '<a><div><p><br><iframe><param>')));
+		$imageTitleData = $this->convert_high_bytes($this->convert_smart_quotes($news['body']));
 		
 		$month = date('F',strtotime($news['date']));
 		$day = date('j',strtotime($news['date']));
@@ -142,7 +142,6 @@ class News extends Default_Table
 		$date= $month.' '.$day.', '.$year;
 		
 		$sideDate = '<ul><li>&nbsp;</li><li class=\'cal-month\'>'.$month.'</li><li class=\'cal-day\'>'.$day.'</li><li class=\'cal-year\'>'.$year.'</li>	</ul><img src=\'/rsrc/common/side-nav-bottom.gif\'>';
-		
 		$imageTitleData = 	stripslashes($imageTitleData).'##'
 							.$date.'<br>'.$news['sourceText'].'##'
 							.$this->convert_high_bytes($this->convert_smart_quotes(stripslashes($news['title']))).'##'
@@ -215,7 +214,7 @@ class News extends Default_Table
 							.urlencode('/rsrc/news/thumbs/'.$news['mediaPath1']).'##'
 							.$readMore.'##'
 							.$sideDate.'##'
-							.urlencode(htmlspecialchars($this->trimString('250',$this->convert_high_bytes($this->convert_smart_quotes(strip_tags($news['body'])))), ENT_QUOTES));
+							.urlencode(htmlspecialchars($this->trimString('250',$this->convert_high_bytes($this->convert_smart_quotes( '<strong>SUPER DUPER</strong>' /*$news['body']*/))), ENT_QUOTES));
 		
 		
 			if ($i < 4) {
