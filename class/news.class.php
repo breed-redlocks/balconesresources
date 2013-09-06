@@ -197,8 +197,7 @@ class News extends Default_Table
   		}
   		
 		//echo $readMore.'<br>';
-		$imageTitleData = $this->convert_high_bytes($this->convert_smart_quotes(strip_tags($news['body'], '<div><p><br><iframe><param>')));
-		//echo $imageTitleData;
+		$imageTitleData = $this->convert_high_bytes($this->convert_smart_quotes(strip_tags($news['body'], '<div><span><strong><em><blockquote><b><i><u><li><ul><ol><p><br><iframe><param>')));
 		//$date = date('F d, Y',strtotime($news['date']));
 		//$imageTitleData = $imageTitleData.'##'.$date.' - '.$news['sourceText'].'##'.$newsTitle['one'].'##'.$newsTitle['two'].'##'.$readMore;
 		
@@ -241,6 +240,7 @@ class News extends Default_Table
 		}
 		
 		return $theHtml;
+    return 'NOOOO';
 	}
 /*
 									<!--[if IE 7]>

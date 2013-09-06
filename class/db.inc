@@ -5,7 +5,6 @@ $query      = NULL;
 
 function db_connect($str=false)
 {
-  $environment = 'production'; // Switch as necessary
   switch($_SERVER['HTTP_HOST'])
   {
     case 'localhost:2201':
