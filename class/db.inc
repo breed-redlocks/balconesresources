@@ -6,15 +6,22 @@ $query      = NULL;
 function db_connect($str=false)
 {
   $environment = 'production'; // Switch as necessary
-  switch($environment)
+  switch($_SERVER['HTTP_HOST'])
   {
-    case 'development':
+    case 'localhost:2201':
+    case 'localhost:8080':
+      $host = 'localhost';
+      $user = 'root';
+      $pass = 'root';
+      $db = 'brdevdb';
+    break;
+    case 'dev.balconesresources.com':
       $host     = "localhost";
       $user = "dev_balconesreso";
       $pass = "";
       $db = "dev_balconesresources";
     break;
-    case 'production':
+    default:
       $host     = "localhost";
       $user = "balconesresource";
       $pass = "sgJNDDPY33yS";
