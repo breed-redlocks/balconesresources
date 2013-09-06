@@ -133,7 +133,7 @@ class News extends Default_Table
   			}
   		}
 		//echo $readMore.'<br>';
-		$imageTitleData = $this->convert_high_bytes($this->convert_smart_quotes(strip_tags($news['body'], '<div><p><br><iframe><param>')));
+		$imageTitleData = $this->convert_high_bytes($this->convert_smart_quotes(strip_tags($news['body'], '<a><div><p><br><iframe><param>')));
 		
 		$month = date('F',strtotime($news['date']));
 		$day = date('j',strtotime($news['date']));
@@ -149,7 +149,7 @@ class News extends Default_Table
 							.urlencode('/rsrc/news/thumbs/'.$news['mediaPath1']).'##'
 							.$readMore.'##'
 							.$sideDate.'##'
-							.urlencode(htmlspecialchars($this->trimString('250',$this->convert_high_bytes($this->convert_smart_quotes(strip_tags($news['body'])))), ENT_QUOTES));
+							.urlencode(htmlspecialchars($this->trimString('250',$this->convert_high_bytes($this->convert_smart_quotes($news['body']))), ENT_QUOTES));
 							//htmlspecialchars("<a href='test'>Test</a>", ENT_QUOTES)
 							
 							//echo $news['body']."<br>///==><br>".urlencode(htmlspecialchars($this->convert_high_bytes($this->convert_smart_quotes($this->trimString('250',strip_tags($news['body']))), ENT_QUOTES)))."<br>///=====>>>>><br>";
